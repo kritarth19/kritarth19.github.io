@@ -7,6 +7,7 @@ var nameCopy = document.getElementById("big_name")
 //   nameCopy.classList.remove("big_name_active")
 // }
 nameCopy.classList.add("big_name_active")
+navTextCopy.classList.remove("big_text_active")
 
 // Hover effect, big text 
 for (let i=0; i<navLinks.length; i++){
