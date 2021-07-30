@@ -192,7 +192,7 @@ nav container li a:hover {
 @media screen and (max-width:576px){
     .page-content-container{
         width: 100%;
-        padding: 60px;
+        padding: 50px;
     }
     .scrollable_view {
       height: 25vh;
