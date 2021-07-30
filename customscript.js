@@ -3,7 +3,9 @@ const navTextCopy = document.getElementById("nav_big_text")
 var nameCopy = document.getElementById("big_name")
 
 
-
+if (window.innerWidth < 760) {
+  nameCopy.classList.remove("big_name_active")
+}
 nameCopy.classList.add("big_name_active")
 
 // Hover effect, big text 
@@ -13,6 +15,9 @@ for (let i=0; i<navLinks.length; i++){
     navTextCopy.textContent = navLinkText
     navTextCopy.classList.add("big_text_active")
 
+    if (window.innerWidth < 760) {
+      navTextCopy.classList.remove("big_text_active")
+    }
     nameCopy.classList.remove("big_name_active")
   })
   
@@ -21,7 +26,10 @@ for (let i=0; i<navLinks.length; i++){
     let navLinkText = this.textContent
     navTextCopy.textContent = navLinkText; 
     navTextCopy.classList.remove("big_text_active")
-
+    
     nameCopy.classList.add("big_name_active")
+    if (window.innerWidth < 760) {
+      nameCopy.classList.remove("big_name_active")
+    }
   })
 }
