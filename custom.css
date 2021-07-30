@@ -6,6 +6,18 @@ body {
   overflow: hidden;
 }
 
+/* .index_body {
+  background-image: url("fakurian-design-GJKx5lhwU3M-unsplash.jpg");
+  background-size: cover;
+} */
+
+/* .me_body {
+  background-image: url("fakurian-design-GJKx5lhwU3M-unsplash.jpg");
+  background-size: cover;
+} */
+
+
+
 ::-webkit-scrollbar {
   -webkit-appearance: none;
   width: 4px;
