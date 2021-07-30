@@ -194,4 +194,7 @@ nav container li a:hover {
         width: 100%;
         padding: 60px;
     }
+    .scrollable_view {
+      height: 25vh;
+    }
 }
