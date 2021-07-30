@@ -19,15 +19,18 @@ body {
     align-items: center;
     margin: 0 auto;
   }
-  nav container ul{
+
+  nav container ul {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    gap: 46px;
+    gap: 10px;
   }
 
-  nav container .nav_menu1 {
+  nav container .nav_menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,14 +41,6 @@ body {
     height: 3px;
     width: 100%;
     background-color: black;
-  }
-  nav container .nav_menu2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    gap: 46px;
   }
   nav container li a {
     padding: 8px;
@@ -89,7 +84,7 @@ body {
     right: 1.5rem;
     color: #e2e7e9;
     opacity: 0;
-    font-size: 9rem;
+    font-size: 11vw;
     font-weight: 700;
     line-height: 0.8;
     text-transform: uppercase;
@@ -101,6 +96,8 @@ body {
   }
 
   #big_name {
+    display: flex;
+    flex-wrap: wrap;
     padding-left: 30px;
     padding-right: 10px;
     position: fixed;
@@ -108,7 +105,7 @@ body {
     left: 1.5rem;
     color: black;
     opacity: 0;
-    font-size: 9rem;
+    font-size: 11vw;
     font-weight: 700;
     line-height: 0.8;
     text-transform: uppercase;
