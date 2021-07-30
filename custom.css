@@ -7,11 +7,11 @@ body {
   }
   
   .wrap {
-    padding: 1.5rem;
+    padding: 1.2rem;
   }
   
   nav {
-    padding: 16px 36px;
+    padding: 0px;
   }
   nav container {
     display: flex;
