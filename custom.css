@@ -1,0 +1,130 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9fbff;
+    overflow: hidden;
+  }
+  
+  .wrap {
+    padding: 1.5rem;
+  }
+  
+  nav {
+    padding: 16px 36px;
+  }
+  nav container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+  }
+  nav container ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 46px;
+  }
+
+  nav container .nav_menu1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 46px;
+  }
+  nav container .line-horizontal {
+    height: 3px;
+    width: 100%;
+    background-color: black;
+  }
+  nav container .nav_menu2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 46px;
+  }
+  nav container li a {
+    padding: 8px;
+    letter-spacing: 0.2rem;
+    font-size: 0.9rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    transition: color 150ms ease-out;
+  }
+  nav container li a:hover {
+    color: grey;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+    border-radius: 5px;
+    min-height: 50vh;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .hero a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    padding-top: 24px;
+    color: white;
+    height: 100%;
+    width: 5%;
+  }
+  
+  #nav_big_text {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    color: #e2e7e9;
+    opacity: 0;
+    font-size: 9rem;
+    font-weight: 700;
+    line-height: 0.8;
+    text-transform: uppercase;
+    transform: translateX(10%);
+    transition-property: transform, opacity;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-out;
+    z-index: -1;
+  }
+
+  #big_name {
+    padding-left: 30px;
+    padding-right: 10px;
+    position: fixed;
+    bottom: 1.5rem;
+    left: 1.5rem;
+    color: black;
+    opacity: 0;
+    font-size: 9rem;
+    font-weight: 700;
+    line-height: 0.8;
+    text-transform: uppercase;
+    transform: translateX(10%);
+    transition-property: transform, opacity;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-out;
+    z-index: -1;
+  }
+  
+  #nav_big_text.big_text_active {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+
+  #big_name.big_name_active {
+    transform: translateX(0%);
+    opacity: 1;
+  }
