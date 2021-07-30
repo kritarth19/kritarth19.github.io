@@ -175,26 +175,50 @@ nav container li a:hover {
   margin-bottom: 40px;
 }
 
-@media screen and (max-width:1200px){
-    .page-content-container{
-      width: 60vw;
-      padding: 80px;
-    }
+@media screen and (max-width:1200px) {
+  .page-content-container {
+    width: 60vw;
+    padding: 80px;
+    height: 70vh;
+  }
+  .scrollable_view {
+    height: 100%;
+    overflow-y: scroll;
+  }
 }
 
-@media screen and (max-width:992px){
-    .page-content-container{
-      width: 60vw;
-      padding: 70px;
-    }
+@media screen and (max-width:992px) {
+  .page-content-container {
+    width: 60vw;
+    padding: 70px;
+    height: 70vh;
+  }
+  .scrollable_view {
+    height: 100%;
+    overflow-y: scroll;
+  }
 }
 
-@media screen and (max-width:576px){
-    .page-content-container{
-        width: 100%;
-        padding: 50px;
-    }
-    .scrollable_view {
-      height: 25vh;
-    }
+@media screen and (max-width:768px) {
+  .page-content-container {
+    width: 100%;
+    padding: 50px;
+    height: 50vh;
+  }
+  .scrollable_view {
+    height: 100%;
+    overflow-y: scroll;
+  }
+}
+
+@media screen and (max-width:576px) {
+  .page-content-container {
+    width: 100%;
+    padding: 50px;
+    height: 50vh;
+  }
+  .scrollable_view {
+    height: 100%;
+    overflow-y: scroll;
+  }
 }
