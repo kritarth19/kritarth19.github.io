@@ -70,7 +70,7 @@ nav li a:hover {
   position: fixed;
   padding-bottom: 6px;
   bottom: 1.5rem;
-  left: 1.5rem;
+  right: 1.5rem;
   color: #a6cfe2;
   opacity: 0;
   font-size: 11vw;
