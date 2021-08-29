@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -15,38 +15,51 @@
   <title>Kritarth Vyas</title>
 </head>
 
-<body class="index_body">
+<body>
+  <div id="wrapper">
 
-
-  <div class="page_content">
-
-    <nav>
-      <div class="nav_menu">
-        <ul>
-          <li><a href="me.html" target="_top">ME</a></li>
-          <li><a href="development.html" target="_top">DEVELOPMENT</a></li>
-          <li><a href="design.html" target="_top">DESIGN</a></li>
-          <li><a href="connect.html" target="_top">CONNECT</a></li>
-        </ul>
+    <div class="split left">
+      <div class="logo-section logo-block">
+        <a href="index.html"></a>
+        <h3 class="heading-8">kv</h3>
       </div>
-    </nav>
 
-    <div class="hero">
-      <div id="nav_big_text"></div>
-      <h1 id="big_name" class="home-big_name">
-        DEVELOPER.
-      <br>
-        DESIGNER.
-      <br>
-        ENGINEER.
-      </h1> 
+      <div style="opacity: 1;" class="text-block">INTRO</div>
+
+      <h2
+        style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); opacity: 1; transform-style: preserve-3d;"
+        class="heading-2">Hi, I'm Kritarth, a super senior at University of Wisconsin-Madison,
+        double majoring in Electrical Engineering and Computer Sciences.
+        Web development, iOS development, Human Computer Interaction, User Experience, and User Interface are
+        some of my academic/professional interests.
+      </h2>
+
+      <div style="opacity: 1;" class="text-block-3">CONNECT</div>
+      <div style="opacity: 1;" class="social-container">
+        <a href="https://www.linkedin.com/in/kritarth-vyas-217741136/" target="_blank"
+          class="social-block linkedin-block"><img
+            src="linkedin.svg"
+            alt="" class="linkedin-icon"></a>
+      </div>
+    </div>
+
+  <div class="split right">
+
+    <div class="nav-block">
+      <a href="https://www.behance.net/kritarthvyas" class="nav-link ">
+        <h1 class="nav-text">design</h1>
+      </a>
+
+      <a href="https://www.behance.net/kritarthvyas" class="nav-link ">
+        <h1 class="nav-text">.dev</h1>
+      </a>
+
+      <a href="https://www.behance.net/kritarthvyas" class="nav-link ">
+        <h1 class="nav-text">photo</h1>
+      </a>
+
     </div>
   </div>
-
-
-
-
-
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -59,7 +72,34 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
-  <script src="customscript.js"></script>
+
+  </div>
 </body>
 
 </html>
+
+<style type="text/css">
+  #warning-message {
+    display: none;
+  }
+
+  @media only screen and (orientation:portrait) {
+    #wrapper {
+      display: none;
+    }
+
+    #warning-message {
+      display: block;
+    }
+  }
+
+  @media only screen and (orientation:landscape) {
+    #warning-message {
+      display: none;
+    }
+  }
+</style>
+
+<div id="warning-message" style="text-align: center;">
+  Please rotate your phone to landscape mode to experience better.
+</div>
