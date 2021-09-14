@@ -24,11 +24,10 @@
 }
 
 .nav-block {
-  position: static;
-  margin-top: 50px;
+  position: absolute;
   display: block;
   width: 80vw;
-  margin-top: 40vh;
+  margin-top: 30vh;
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
@@ -36,18 +35,17 @@
 
 .nav-link {
   display: flex;
-  width: 8vw;
+  width: 20vw;
   height: 16px;
   margin-top: 75px;
   padding-bottom: 8px;
   align-items: flex-end;
-  transition: background-color 250ms cubic-bezier(.55, .085, .68, .53);
-  text-decoration: none;
+  text-decoration:none;
   cursor: pointer;
 }
 
 .nav-link:hover {
-  background-color: #87A8A4;
+  text-decoration: underline #628395;
 }
 
 .nav-text {
@@ -58,6 +56,7 @@
   color: #012443;
   font-family: 'Playfair Display';
   font-size: 80px;
+  font-weight: 700;
   text-align: right;
   text-decoration: none;
   text-transform: none;
@@ -103,8 +102,8 @@
   font-family: 'Roboto Mono', sans-serif;
   color: #999;
   letter-spacing: 2px;
-  margin-top: 12vh;
-  margin-left: 100px;
+  margin-top: 30vh;
+  margin-left: 2.5rem;
 }
 
 .heading-2 {
@@ -115,7 +114,7 @@
   font-size: 24px;
   margin-top: 2vh;
   margin-right: 20px;
-  margin-left: 100px;
+  margin-left: 2.5rem;
 }
 
 .text-block-3 {
@@ -124,13 +123,13 @@
   color: #999;
   letter-spacing: 2px;
   margin-top: 4vh;
-  margin-left: 100px;
+  margin-left: 2.5rem;
 }
 
 .social-container {
   height: 40px;
   margin-top: 2vh;
-  margin-left: 100px;
+  margin-left: 2.5rem;
 }
 
 .social-icon {
@@ -139,4 +138,15 @@
 
 .social-block.social-block:hover {
   opacity: 0.75;
+}
+
+.big_name {
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+  color: #082032;
+  opacity: 1;
+  font-size: 9vw;
+  font-weight: 500;
+  text-transform: uppercase;
 }
