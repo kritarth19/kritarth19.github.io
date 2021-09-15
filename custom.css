@@ -39,12 +39,12 @@
   margin-top: 75px;
   padding-bottom: 8px;
   align-items: flex-end;
-  text-decoration:none;
   cursor: pointer;
+  text-decoration: underline #e3f6f5;
 }
 
 .nav-link:hover {
-  text-decoration: underline #e3f6f5;
+  opacity: 0.75;
 }
 
 .nav-text {
