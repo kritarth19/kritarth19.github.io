@@ -40,11 +40,11 @@
   padding-bottom: 8px;
   align-items: flex-end;
   cursor: pointer;
-  text-decoration: underline #e3f6f5;
 }
 
 .nav-link:hover {
   opacity: 0.75;
+  text-decoration: underline #e3f6f5;
 }
 
 .nav-text {
