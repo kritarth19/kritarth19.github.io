@@ -15,7 +15,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #fff url("../img/bg-profile2.jpg") top right no-repeat;
+  background: #fff url("../img/bg-profile5.jpg") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
